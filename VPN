@@ -1,0 +1,56 @@
+# VPN Setup and Privacy Features Report
+
+This repository contains my hands-on experience with setting up and testing a VPN service, as per the provided guide.
+
+---
+
+## 🛠 Steps Followed (as per guide)
+
+### 1. Choose a reputable free VPN service and sign up
+- Selected **ProtonVPN (Free Tier)** for its strong privacy policy and AES-256 encryption.
+- Created an account using my email and verified it.
+
+### 2. Download and install the VPN client
+- Downloaded the ProtonVPN desktop application from the official website.
+- Installed using the default setup wizard.
+
+### 3. Connect to a VPN server
+- Chose the nearest **Free – India** server for better speed.
+- Successfully connected (green status icon displayed in app).
+
+### 4. Verify IP address change
+- **Before connection:** Checked IP via `whatismyipaddress.com` — original IP displayed.
+- **After connection:** IP changed to VPN server’s location.
+- **Screenshots:** `vpn-ip-before.png`, `vpn-ip-after.png`.
+
+### 5. Browse a website to confirm traffic encryption
+- Accessed multiple HTTPS sites while connected.
+- ProtonVPN app confirmed encryption using **WireGuard protocol**.
+
+### 6. Disconnect VPN and compare browsing speed and IP
+- Ran `fast.com` speed test **before** and **after** VPN connection.
+- Observed a slight decrease in download/upload speed when VPN was active.
+- Disconnected VPN and IP reverted to original.
+
+### 7. Research VPN encryption and privacy features
+- **Encryption:** AES-256 bit with WireGuard/OpenVPN tunneling.
+- **Privacy:** Masks real IP address, prevents ISP tracking, and secures public Wi-Fi.
+
+### 8. Summary on VPN benefits and limitations
+
+#### Benefits
+- Hides IP and location.
+- Encrypts all data in transit.
+- Protects privacy on unsecured networks.
+- Allows bypassing geo-restrictions.
+
+#### Limitations
+- May reduce internet speed.
+- Not 100% anonymous (VPN provider may log data).
+- Free tiers have limited server access.
+
+
+---
+
+## 🏷 Key Concepts
+VPN, encryption, privacy, tunneling protocols, network security
